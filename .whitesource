@@ -1,3 +1,10 @@
 {
-  "settingsInheritedFrom": "tabacmend-up/whitesource-config@main"
+  "settingsInheritedFrom": "tabacmend-up/whitesource-config@main",
+"remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    },
+    "enableRenovate": false,
+    "ignorePresets": ["config:recommended", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"]
+  }
 }
